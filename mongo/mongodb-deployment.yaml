@@ -24,9 +24,9 @@ spec:
                 valueFrom:
                     secretKeyRef:
                         name: mongodb-secret
-                        key: monogo-db-username
+                        key: monogodb-username
               - name: MONGO_INITDB_ROOT_PASSSWORD
                 valueFrom:
                     secretKeyRef:
                         name: mongodb-secret
-                        key: monogo-db-password
+                        key: monogodb-password
